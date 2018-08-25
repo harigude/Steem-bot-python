@@ -14,8 +14,8 @@ import re
 from steem.blockchain import Blockchain
 
 # Replace posting key and active key with keys from your Steemit account in both s and s1.
-s = Steem(keys=['5JfwXuqqZPGi3wHijB7Fj8EbdcmFdn1qJPsi3qqur5rrKatW523','5JJb5f1ce985U56BasjUXghbtkbY8upSaRBeEeeJrBByEfs1hk3'])
-s1 = Steem(nodes=['https://api.steemit.com'], keys=['5JfwXuqqZPGi3wHijB7Fj8EbdcmFdn1qJPsi3qqur5rrKatW523','5JJb5f1ce985U56BasjUXghbtkbY8upSaRBeEeeJrBByEfs1hk3'])
+s = Steem(keys=['#Posting key','#Active key'])
+s1 = Steem(nodes=['https://api.steemit.com'], keys=['#Posting key','#Active key'])
 
 # Replace account name with your Steemit account name
 account_name = 'account name'
